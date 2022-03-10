@@ -1,0 +1,3 @@
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/SortedSet/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/SortedSet/cmake-build-debug/CMakeFiles/SortedSet.dir
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/SortedSet/cmake-build-debug/CMakeFiles/rebuild_cache.dir

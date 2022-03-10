@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/LAB1_Bag/Bag.h
+
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/LAB1_Bag/BagIterator.cpp
+exception
+-
+BagIterator.h
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/LAB1_Bag/BagIterator.h
+Bag.h
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/LAB1_Bag/Bag.h
+iostream
+-
+
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/LAB1_Bag/BagIterator.h
+Bag.h
+C:/Users/Alexandra/Desktop/Facultate/Anul I - SEM II/Data Structures and Algorithms/LAB1_Bag/Bag.h
+
