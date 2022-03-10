@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="431.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interpretergui.PrgListController">
+   <children>
+      <ListView fx:id="PrgList" layoutX="73.0" layoutY="53.0" prefHeight="306.0" prefWidth="458.0" />
+      <Label alignment="CENTER" layoutX="72.0" layoutY="22.0" prefHeight="31.0" prefWidth="458.0" text="List of programs" textAlignment="CENTER" underline="true">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="RunButton" layoutX="542.0" layoutY="327.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="63.0" text="Run" />
+   </children>
+</AnchorPane>

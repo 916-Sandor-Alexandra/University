@@ -1,0 +1,303 @@
+ID: 7
+
+EXESTACK:
+Ref int v; new(v, 20);  print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+Ref int v;
+new(v, 20);  print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+Ref int v;
+new(v, 20);  print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+new(v, 20);  print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+new(v, 20);  print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+new(v, 20); 
+print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+new(v, 20); 
+print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+print(readH(v));  writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+print(readH(v)); 
+writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+print(readH(v)); 
+writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+writeH(v, 30); print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+writeH(v, 30);
+print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+writeH(v, 30);
+print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+print(readH(v) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 7
+
+EXESTACK:
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+20 35 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+

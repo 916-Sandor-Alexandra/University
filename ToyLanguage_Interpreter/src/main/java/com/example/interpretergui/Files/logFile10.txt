@@ -1,0 +1,1022 @@
+ID: 10
+
+EXESTACK:
+int v; Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+int v;
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+int v;
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a;
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a;
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22); 
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22); 
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);)
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);)
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 11
+
+EXESTACK:
+writeH(a, 30);
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 11
+
+EXESTACK:
+writeH(a, 30);
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32;
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 11
+
+EXESTACK:
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32;
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v); 
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v); 
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+32 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+32 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+32 30 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+int v; Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+int v;
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+int v;
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a; new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a;
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+Ref int a;
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22);  fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22); 
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+new(a, 22); 
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(0, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);) v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);)
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+fork(writeH(a, 30);)
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 11
+
+EXESTACK:
+writeH(a, 30);
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32; print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 11
+
+EXESTACK:
+writeH(a, 30);
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->22
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32;
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 11
+
+EXESTACK:
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+v = 32;
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v);  print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v); 
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(v); 
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+32 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+print(readH(a)); 
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+32 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+
+ID: 10
+
+EXESTACK:
+
+SYMTABLE:
+a->(1, int)
+v->32
+
+OUTPUT:
+32 30 
+FILETABLE:
+
+HEAP:
+1->30
+
+--------------------------------------------------------------------------------
+

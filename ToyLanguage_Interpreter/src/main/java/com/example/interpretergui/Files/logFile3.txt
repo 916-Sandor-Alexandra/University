@@ -1,0 +1,1032 @@
+ID: 3
+
+EXESTACK:
+bool a; int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a; int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a;
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a;
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v;
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v;
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true;
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true;
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+v = 2;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+v = 2;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+print(v); 
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+print(v); 
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+2 
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a; int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a;
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a;
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v;
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v;
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true;
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true;
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+v = 2;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+v = 2;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+print(v); 
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+print(v); 
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+2 
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a; int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a;
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+bool a;
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v; a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v;
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+int v;
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true; if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true;
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+a = true;
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->false
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3; print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+if (a) then v = 2; else v = 3;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+v = 2;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+v = 2;
+print(v); 
+
+SYMTABLE:
+a->true
+v->0
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+print(v); 
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+print(v); 
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 3
+
+EXESTACK:
+
+SYMTABLE:
+a->true
+v->2
+
+OUTPUT:
+2 
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+

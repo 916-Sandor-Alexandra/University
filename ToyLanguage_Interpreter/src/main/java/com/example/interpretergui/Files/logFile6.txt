@@ -1,0 +1,391 @@
+ID: 6
+
+EXESTACK:
+Ref int v; new(v, 20);  Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+Ref int v;
+new(v, 20);  Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+Ref int v;
+new(v, 20);  Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(v, 20);  Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(v, 20);  Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(v, 20); 
+Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(v, 20); 
+Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(0, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+Ref Ref int a; new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+Ref Ref int a;
+new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+Ref Ref int a;
+new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(0, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(a, v);  print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(0, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(a, v); 
+print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(0, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+new(a, v); 
+print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(0, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+print(readH(v));  print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+print(readH(v)); 
+print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+print(readH(v)); 
+print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+print(readH(readH(a)) + 5); 
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+20 
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
+ID: 6
+
+EXESTACK:
+
+SYMTABLE:
+a->(2, Ref int)
+v->(1, int)
+
+OUTPUT:
+20 25 
+FILETABLE:
+
+HEAP:
+1->20
+2->(1, int)
+
+--------------------------------------------------------------------------------
+
